@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="description" content="Your tagline or description here." />
+  <meta property="og:title" content="Your Name" />
+  <meta property="og:description" content="Your tagline or description here." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourusername.github.io/" />
+  <title>Your Name</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="index.html">Your Name</a>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html" class="active">WORK</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title">Portfolio</h1>
+      <p class="hero__tagline">
+        <!-- ✏️ Edit your tagline -->
+        A job title who z.
+      </p>
+      <p class="hero__role">
+        <!-- ✏️ Edit your current role / headline -->
+        Currently a <strong>UX Designer at Company Name</strong> crafting experiences for x and y.
+      </p>
+    </div>
+  </header>
+
+  <!-- ========== WORK GRID ========== -->
+  <main class="work" id="work">
+
+    <!-- ✏️ PROJECT CARD — duplicate this block for each project -->
+    <article class="project-card">
+      <a href="project-1.html" class="project-card__image-link">
+        <div class="project-card__image-wrap">
+          <!-- ✏️ Replace src with your project image -->
+          <img src="images/project-1.jpg" alt="Project One screenshot" loading="lazy" />
+          <div class="project-card__overlay">
+            <span>View Project →</span>
+          </div>
+        </div>
+      </a>
+      <div class="project-card__body">
+        <!-- ✏️ Edit tag, company, title, description -->
+        <span class="project-card__tag">Web &amp; Mobile</span>
+        <p class="project-card__company">Company / Context</p>
+        <h2 class="project-card__title">Project One Title</h2>
+        <p class="project-card__desc">
+          A short description of what you did and what problem it solved.
+        </p>
+        <a href="project-1.html" class="project-card__link">Learn more →</a>
+      </div>
+    </article>
+
+    <!-- ✏️ PROJECT CARD 2 -->
+    <article class="project-card">
+      <a href="project-2.html" class="project-card__image-link">
+        <div class="project-card__image-wrap">
+          <img src="images/project-2.jpg" alt="Project Two screenshot" loading="lazy" />
+          <div class="project-card__overlay">
+            <span>View Project →</span>
+          </div>
+        </div>
+      </a>
+      <div class="project-card__body">
+        <span class="project-card__tag">iOS &amp; Android</span>
+        <p class="project-card__company">Company / Context</p>
+        <h2 class="project-card__title">Project Two Title</h2>
+        <p class="project-card__desc">
+          A short description of what you did and what problem it solved.
+        </p>
+        <a href="project-2.html" class="project-card__link">Learn more →</a>
+      </div>
+    </article>
+
+    <!-- ✏️ PROJECT CARD 3 — use class "project-card--email" if you want an email CTA instead of a link -->
+    <article class="project-card project-card--email">
+      <div class="project-card__image-wrap">
+        <img src="images/project-3.jpg" alt="Project Three screenshot" loading="lazy" />
+      </div>
+      <div class="project-card__body">
+        <span class="project-card__tag">Research</span>
+        <p class="project-card__company">NDA / Private</p>
+        <h2 class="project-card__title">Project Three Title</h2>
+        <p class="project-card__desc">
+          This project is under NDA. Please reach out to learn more.
+        </p>
+        <!-- ✏️ Replace with your email -->
+        <a href="mailto:you@example.com" class="project-card__link">Email me →</a>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <!-- ✏️ Replace links with your own -->
+      <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

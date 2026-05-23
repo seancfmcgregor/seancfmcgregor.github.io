@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <!-- ✏️ Edit title and description for each project -->
+  <meta name="description" content="A short description of this project." />
+  <meta property="og:title" content="Project One — Your Name" />
+  <meta property="og:type" content="website" />
+  <title>Project One — Your Name</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="index.html">Your Name</a>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html" class="active">WORK</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+    </ul>
+  </nav>
+
+  <!-- ========== PROJECT HERO ========== -->
+  <header class="project-hero">
+    <div class="project-hero__inner">
+      <a href="index.html" class="project-hero__back">← Back to work</a>
+
+      <!-- ✏️ Edit tag, company, title -->
+      <span class="project-card__tag">Web &amp; Mobile</span>
+      <p class="project-hero__company">Company / Context</p>
+      <h1 class="project-hero__title">Project One Title</h1>
+
+      <!-- ✏️ Key metadata row — add/remove as needed -->
+      <div class="project-hero__meta">
+        <div class="project-hero__meta-item">
+          <span class="project-hero__meta-label">Role</span>
+          <span>UX Designer</span>
+        </div>
+        <div class="project-hero__meta-item">
+          <span class="project-hero__meta-label">Year</span>
+          <span>2024</span>
+        </div>
+        <div class="project-hero__meta-item">
+          <span class="project-hero__meta-label">Platform</span>
+          <span>iOS &amp; Web</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✏️ Replace with your hero/cover image -->
+    <div class="project-hero__image">
+      <img src="images/project-1.jpg" alt="Project One cover image" />
+    </div>
+  </header>
+
+  <!-- ========== PROJECT CONTENT ========== -->
+  <main class="project-content">
+
+    <!-- ✏️ Overview section -->
+    <section class="project-section">
+      <h2>Overview</h2>
+      <p>
+        Describe the project at a high level. What was the product, the context,
+        and your involvement? Keep it to 2–3 sentences so a reader can orient quickly.
+      </p>
+    </section>
+
+    <!-- ✏️ Problem / Challenge -->
+    <section class="project-section">
+      <h2>The Problem</h2>
+      <p>
+        What problem were you solving? Who felt this pain? Why did it matter?
+        Frame it from the user's perspective where possible.
+      </p>
+    </section>
+
+    <!-- ✏️ Full-width image — duplicate as needed -->
+    <figure class="project-figure">
+      <img src="images/project-1-detail-a.jpg" alt="Description of this image" loading="lazy" />
+      <figcaption>Caption explaining what this image shows.</figcaption>
+    </figure>
+
+    <!-- ✏️ Process / Approach -->
+    <section class="project-section">
+      <h2>Process</h2>
+      <p>
+        Walk through your design process: research, ideation, prototyping, testing.
+        Be concrete about your methods and decisions. What constraints did you work within?
+      </p>
+      <ul>
+        <li>User interviews &amp; competitive analysis</li>
+        <li>Information architecture &amp; flow diagrams</li>
+        <li>Low-fi wireframes → high-fi prototypes</li>
+        <li>Usability testing with X participants</li>
+      </ul>
+    </section>
+
+    <!-- ✏️ Another image -->
+    <figure class="project-figure">
+      <img src="images/project-1-detail-b.jpg" alt="Description of this image" loading="lazy" />
+      <figcaption>Caption explaining what this image shows.</figcaption>
+    </figure>
+
+    <!-- ✏️ Outcome / Results -->
+    <section class="project-section">
+      <h2>Outcome</h2>
+      <p>
+        What shipped? What impact did it have? Use numbers if you have them
+        (e.g. task completion rate improved by X%, NPS increased by Y points).
+      </p>
+    </section>
+
+    <!-- ✏️ Next project navigation -->
+    <nav class="project-nav">
+      <a href="project-2.html" class="project-nav__next">
+        Next project →
+      </a>
+    </nav>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
