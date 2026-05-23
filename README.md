@@ -1,6 +1,5 @@
 # Portfolio — GitHub Pages Template
 
-Modelled on the layout of [briannahuxtable.com](https://briannahuxtable.com):
 clean nav → hero intro → alternating project cards → project detail pages → about page.
 
 ---
@@ -99,5 +98,3 @@ Currently using [Playfair Display + DM Sans](https://fonts.google.com/) from Goo
 To swap, replace the `<link>` tag in each HTML file and update `--font-display` / `--font-body` in the CSS.
 
 ---
-
-*Template built to mirror the structure of briannahuxtable.com — layout and component patterns only, no original content or styles copied.*
